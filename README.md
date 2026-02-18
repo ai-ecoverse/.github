@@ -26,6 +26,12 @@ Transparent GitHub CLI wrapper that automatically detects AI tool usage and ensu
 
 GitHub App token broker running on Cloudflare Workers. Provides user-to-server GitHub tokens via device flow for ai-aligned-gh, ensuring actions show proper user attribution with app badges rather than appearing as bot-only actions.
 
+### [military-grade-claude](https://github.com/trieloff/military-grade-claude)
+
+![Military-Grade Claude](https://raw.githubusercontent.com/trieloff/military-grade-claude/main/hero-banner.jpg)
+
+Tacticool upgrade patch for Claude Code that replaces soft spinner verbs with COMBAT-READY status messages. Transforms "Thinking..." into "Annihilating", "Exterminatus-Grade-Purification-Commencing", and absurdly over-the-top military-themed status updates. One-command installation for maximum operational readiness.
+
 ## 🛠️ Developer Productivity Tools
 
 ### [gh-workflow-peek](https://github.com/trieloff/gh-workflow-peek)
@@ -79,6 +85,9 @@ curl -fsSL https://raw.githubusercontent.com/trieloff/ai-aligned-git/main/instal
 
 # ai-aligned-gh
 curl -fsSL https://raw.githubusercontent.com/trieloff/ai-aligned-gh/main/install.sh | sh
+
+# military-grade-claude
+curl -fsSL https://raw.githubusercontent.com/trieloff/military-grade-claude/main/install.sh | sh
 
 # upskill
 curl -fsSL https://raw.githubusercontent.com/trieloff/upskill/main/install.sh | bash
