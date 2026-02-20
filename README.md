@@ -32,6 +32,10 @@ GitHub App token broker running on Cloudflare Workers. Provides user-to-server G
 
 Tacticool upgrade patch for Claude Code that replaces soft spinner verbs with COMBAT-READY status messages. Transforms "Thinking..." into "Annihilating", "Exterminatus-Grade-Purification-Commencing", and absurdly over-the-top military-themed status updates. One-command installation for maximum operational readiness.
 
+### [claude-trmnl-skill](https://github.com/trieloff/claude-trmnl-skill)
+
+Claude Code skill for pushing status updates and action items to TRMNL e-ink displays via webhook API. Includes responsive templates for full screen (message + action items list), half screen (top/bottom split), and smaller layouts (message only), plus a comprehensive TRMNL Framework design system reference.
+
 ## 🛠️ Developer Productivity Tools
 
 ### [gh-workflow-peek](https://github.com/trieloff/gh-workflow-peek)
