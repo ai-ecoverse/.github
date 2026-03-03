@@ -26,6 +26,8 @@ Transparent GitHub CLI wrapper that automatically detects AI tool usage and ensu
 
 ### [as-a-bot](https://github.com/ai-ecoverse/as-a-bot)
 
+![as-a-bot](https://raw.githubusercontent.com/ai-ecoverse/as-a-bot/main/hero-banner.jpg)
+
 GitHub App token broker running on Cloudflare Workers. Provides user-to-server GitHub tokens via device flow for ai-aligned-gh, ensuring actions show proper user attribution with app badges rather than appearing as bot-only actions.
 
 ### [military-grade-claude](https://github.com/ai-ecoverse/military-grade-claude)
