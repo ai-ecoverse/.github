@@ -46,9 +46,9 @@ Claude Code skill for pushing status updates and action items to TRMNL e-ink dis
 
 GitHub CLI extension that intelligently filters and highlights errors in GitHub Actions workflow logs by severity. Auto-detects failed PR checks, prioritizes errors (fatal → error → warn → fail), and shows context around matches. Perfect for developers and AI agents working with limited context windows.
 
-### [upskill](https://github.com/ai-ecoverse/upskill)
+### [gh-upskill](https://github.com/ai-ecoverse/gh-upskill)
 
-![Upskill – Install Agent Skills](https://raw.githubusercontent.com/ai-ecoverse/upskill/main/hero-banner.jpeg)
+![Upskill – Install Agent Skills](https://raw.githubusercontent.com/ai-ecoverse/gh-upskill/main/hero-banner.jpeg)
 
 Quickly install Claude/Agent skills from other repositories. Works standalone or as a GitHub CLI extension. Copies skills, creates discovery scripts, and updates AGENTS.md with clear markers for idempotent updates.
 
@@ -73,7 +73,7 @@ Lightweight shell library for detecting AI coding agents. Provides robust two-ph
 - **Safe Experimentation**: Use YOLO with worktree mode to test AI-generated changes in isolation
 - **Proper Attribution**: Ensure all AI contributions are clearly marked in git history and GitHub
 - **Efficient Debugging**: Quickly find critical errors in CI/CD logs with gh-workflow-peek
-- **Skill Sharing**: Share and install AI agent skills across projects with upskill
+- **Skill Sharing**: Share and install AI agent skills across projects with gh-upskill
 - **Transparency**: Track and visualize AI contributions with vibe-coded-badge-action
 
 ## 🚀 Getting Started
@@ -95,12 +95,12 @@ curl -fsSL https://raw.githubusercontent.com/ai-ecoverse/ai-aligned-gh/main/inst
 # military-grade-claude
 curl -fsSL https://raw.githubusercontent.com/ai-ecoverse/military-grade-claude/main/install.sh | sh
 
-# upskill
-curl -fsSL https://raw.githubusercontent.com/ai-ecoverse/upskill/main/install.sh | bash
+# gh-upskill
+curl -fsSL https://raw.githubusercontent.com/ai-ecoverse/gh-upskill/main/install.sh | bash
 
 # gh extensions
 gh extension install ai-ecoverse/gh-workflow-peek
-gh extension install ai-ecoverse/upskill
+gh extension install ai-ecoverse/gh-upskill
 
 # am-i-ai (detection library, used by ai-aligned-git/gh)
 curl -fsSL https://raw.githubusercontent.com/ai-ecoverse/am-i-ai/main/install.sh | sh
