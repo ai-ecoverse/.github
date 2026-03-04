@@ -1,6 +1,6 @@
 # AI Ecoverse
 
-**The world's trailing AI Lab**
+**The world's trailing AI Lab - Made with ❤️ in `Berlin` using military grade claude**
 
 A comprehensive ecosystem of tools designed to enhance the AI-assisted development experience, improve transparency, and ensure proper attribution in AI-human collaborative coding.
 
