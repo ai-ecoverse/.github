@@ -40,6 +40,12 @@ Tacticool upgrade patch for Claude Code that replaces soft spinner verbs with CO
 
 Claude Code skill for pushing status updates and action items to TRMNL e-ink displays via webhook API. Includes responsive templates for full screen (message + action items list), half screen (top/bottom split), and smaller layouts (message only), plus a comprehensive TRMNL Framework design system reference.
 
+### [slicc](https://github.com/ai-ecoverse/slicc)
+
+![slicc - Browser-Based Coding Agent](https://raw.githubusercontent.com/ai-ecoverse/slicc/main/hero-banner.png)
+
+A browser-based coding agent that runs as a Chrome extension, CLI server, or Electron float. Runs Claude directly in the browser with full filesystem access, a WebAssembly shell, browser automation via CDP, and a complete suite of code editing tools. The self-licking ice cream cone - an AI coding agent that builds itself.
+
 ## 🛠️ Developer Productivity Tools
 
 ### [gh-workflow-peek](https://github.com/ai-ecoverse/gh-workflow-peek)
@@ -54,6 +60,12 @@ GitHub CLI extension that intelligently filters and highlights errors in GitHub 
 
 Quickly install Claude/Agent skills from other repositories. Works standalone or as a GitHub CLI extension. Copies skills, creates discovery scripts, and updates AGENTS.md with clear markers for idempotent updates.
 
+### [gh-monday](https://github.com/ai-ecoverse/gh-monday)
+
+![gh-monday - A robot cat that loves Mondays](https://raw.githubusercontent.com/ai-ecoverse/gh-monday/main/hero-banner.jpg)
+
+Ranked GitHub triage as a `gh` extension. Shows what needs your attention now: PRs/issues waiting on you, work waiting on others, local repos behind, AI coding sessions to resume, categorized notifications, and cleanup candidates. "Garfield was wrong. Mondays are when everything gets sorted." Install with: `gh extension install ai-ecoverse/gh-monday`.
+
 ## 📊 Transparency & Analytics
 
 ### [vibe-coded-badge-action](https://github.com/ai-ecoverse/vibe-coded-badge-action)
@@ -61,6 +73,12 @@ Quickly install Claude/Agent skills from other repositories. Works standalone or
 ![Vibe Coded Badge Action](https://github.com/user-attachments/assets/0350cfe6-7631-4613-aa3e-74e2bd53eda4)
 
 GitHub Action that analyzes repository git history to determine what percentage of commits were made by AI tools. Generates dynamic badges showing AI contribution levels with smart logo selection based on the dominant AI tool (Claude, Cursor, Gemini, Copilot, etc.).
+
+## 🔐 Security & Secrets
+
+### [mcpecrets](https://github.com/ai-ecoverse/mcpecrets)
+
+A lightweight MCP secrets manager that uses Cloudflare Workers for compute and GitHub for persistence. Stores secrets as GitHub Actions Secrets and retrieves them via triggered workflows with ephemeral key encryption. Exposes five MCP tools over OAuth 2.1 with dynamic client registration, working with any MCP-compatible client.
 
 ## 📚 Libraries
 
