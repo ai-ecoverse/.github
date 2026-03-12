@@ -64,7 +64,7 @@ Quickly install Claude/Agent skills from other repositories. Works standalone or
 
 ![gh-monday - A robot cat that loves Mondays](https://raw.githubusercontent.com/ai-ecoverse/gh-monday/main/hero-banner.jpg)
 
-Ranked GitHub triage as a `gh` extension. Shows what needs your attention now: PRs/issues waiting on you, work waiting on others, local repos behind, AI coding sessions to resume, categorized notifications, and cleanup candidates. "Garfield was wrong. Mondays are when everything gets sorted."
+Ranked GitHub triage as a `gh` extension. Shows what needs your attention now: PRs/issues waiting on you, work waiting on others, local repos behind, AI coding sessions to resume, categorized notifications, and cleanup candidates. "Garfield was wrong. Mondays are when everything gets sorted." Install with: `gh extension install ai-ecoverse/gh-monday`.
 
 ## 📊 Transparency & Analytics
 
