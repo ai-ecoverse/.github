@@ -1,6 +1,6 @@
 # AI Ecoverse
 
-**The world's trailing AI Lab - Made with ❤️ in `Berlin` using military grade claude**
+**The world's trailing AI Lab - Made with ❤️ in `Berlin`**
 
 A comprehensive ecosystem of tools designed to enhance the AI-assisted development experience, improve transparency, and ensure proper attribution in AI-human collaborative coding.
 
@@ -29,12 +29,6 @@ Transparent GitHub CLI wrapper that automatically detects AI tool usage and ensu
 ![as-a-bot](https://raw.githubusercontent.com/ai-ecoverse/as-a-bot/main/hero-image.png)
 
 GitHub App token broker running on Cloudflare Workers. Provides user-to-server GitHub tokens via device flow for ai-aligned-gh, ensuring actions show proper user attribution with app badges rather than appearing as bot-only actions.
-
-### [military-grade-claude](https://github.com/ai-ecoverse/military-grade-claude)
-
-![Military-Grade Claude](https://raw.githubusercontent.com/ai-ecoverse/military-grade-claude/main/hero-banner.jpg)
-
-Tacticool upgrade patch for Claude Code that replaces soft spinner verbs with COMBAT-READY status messages. Transforms "Thinking..." into "Annihilating", "Exterminatus-Grade-Purification-Commencing", and absurdly over-the-top military-themed status updates. One-command installation for maximum operational readiness.
 
 ### [claude-trmnl-skill](https://github.com/ai-ecoverse/claude-trmnl-skill)
 
@@ -111,9 +105,6 @@ curl -fsSL https://raw.githubusercontent.com/ai-ecoverse/ai-aligned-git/main/ins
 
 # ai-aligned-gh
 curl -fsSL https://raw.githubusercontent.com/ai-ecoverse/ai-aligned-gh/main/install.sh | sh
-
-# military-grade-claude
-curl -fsSL https://raw.githubusercontent.com/ai-ecoverse/military-grade-claude/main/install.sh | sh
 
 # gh-upskill
 curl -fsSL https://raw.githubusercontent.com/ai-ecoverse/gh-upskill/main/install.sh | bash
