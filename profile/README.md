@@ -62,6 +62,10 @@ Quickly install Claude/Agent skills from other repositories. Works standalone or
 
 Ranked GitHub triage as a `gh` extension. Shows what needs your attention now: PRs/issues waiting on you, work waiting on others, local repos behind, AI coding sessions to resume, categorized notifications, and cleanup candidates. "Garfield was wrong. Mondays are when everything gets sorted." Install with: `gh extension install ai-ecoverse/gh-monday`.
 
+### [gh-reaper](https://github.com/ai-ecoverse/gh-reaper)
+
+GitHub CLI extension that hunts down stale git worktrees across your machine — showing each one's last-touched age and disk size, oldest first — and reaps the ones you've forgotten. Read-only by default (`--reap` to delete), safety-classifies worktrees as clean/dirty/unpushed/orphan, and steers clear of macOS privacy-protected folders so it never trips a permission prompt. The perfect companion for the worktrees YOLO and other agents leave behind. "Seasons don't fear the reaper." Install with: `gh extension install ai-ecoverse/gh-reaper`.
+
 ## 📊 Transparency & Analytics
 
 ### [vibe-coded-badge-action](https://github.com/ai-ecoverse/vibe-coded-badge-action)
@@ -91,6 +95,7 @@ Lightweight shell library for detecting AI coding agents. Provides robust two-ph
 - **Efficient Debugging**: Quickly find critical errors in CI/CD logs with gh-workflow-peek
 - **Skill Sharing**: Share and install AI agent skills across projects with gh-upskill
 - **Transparency**: Track and visualize AI contributions with vibe-coded-badge-action
+- **Disk Hygiene**: Find and reap forgotten git worktrees by age and size with gh-reaper
 
 ## 🚀 Getting Started
 
@@ -114,6 +119,7 @@ curl -fsSL https://raw.githubusercontent.com/ai-ecoverse/gh-upskill/main/install
 # gh extensions
 gh extension install ai-ecoverse/gh-workflow-peek
 gh extension install ai-ecoverse/gh-upskill
+gh extension install ai-ecoverse/gh-reaper
 
 # am-i-ai (detection library, used by ai-aligned-git/gh)
 curl -fsSL https://raw.githubusercontent.com/ai-ecoverse/am-i-ai/main/install.sh | sh
