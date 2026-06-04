@@ -64,6 +64,7 @@ planning is easier:
 2. @karlpauls
 3. [@catalan-adobe](https://github.com/catalan-adobe)
 4. [@paolomoz](https://github.com/paolomoz)
+5. [@QuentinVecchio](https://github.com/QuentinVecchio)
 
 (Other SLICC contributors welcome — add yourself.)
 
