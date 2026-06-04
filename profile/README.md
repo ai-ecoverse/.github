@@ -80,6 +80,8 @@ GitHub Action that analyzes repository git history to determine what percentage 
 
 ### [mcpecrets](https://github.com/ai-ecoverse/mcpecrets)
 
+![mcpecrets — secrets, kept](https://raw.githubusercontent.com/ai-ecoverse/mcpecrets/main/hero-banner.png)
+
 A lightweight MCP secrets manager that uses Cloudflare Workers for compute and GitHub for persistence. Stores secrets as GitHub Actions Secrets and retrieves them via triggered workflows with ephemeral key encryption. Exposes five MCP tools over OAuth 2.1 with dynamic client registration, working with any MCP-compatible client.
 
 ## 📚 Libraries
