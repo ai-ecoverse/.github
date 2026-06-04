@@ -58,7 +58,7 @@ Quickly install Claude/Agent skills from other repositories. Works standalone or
 
 ### [skills](https://github.com/ai-ecoverse/skills)
 
-![ai-ecoverse/skills — a collection of installable agent skills](https://raw.githubusercontent.com/ai-ecoverse/skills/main/hero-banner.png)
+![ai-ecoverse/skills — a collection of installable agent skills](https://raw.githubusercontent.com/ai-ecoverse/skills/main/hero-banner.jpg)
 
 A curated catalog of 30+ ready-to-install agent skills for SLICC and other AI coding agents — browser automation, email & chat (Gmail, Outlook, Slack, Teams), music (Suno, Strudel, Apple Music), documents (PDF, PPTX, presentations), research, and screenwriting. Each skill is a self-contained directory (`SKILL.md` plus scripts, references, and assets). Install them with `upskill ai-ecoverse/skills --all`.
 
