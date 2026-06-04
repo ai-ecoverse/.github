@@ -4,6 +4,8 @@
 
 A comprehensive ecosystem of tools designed to enhance the AI-assisted development experience, improve transparency, and ensure proper attribution in AI-human collaborative coding.
 
+> 🍦 **Brain Freezes** — get-togethers for the [SLICC](https://github.com/ai-ecoverse/slicc) crowd. [Upcoming & past events →](https://github.com/ai-ecoverse/.github/blob/main/brain-freezes/README.md)
+
 ## 🤖 Core AI Agent Tools
 
 ### [YOLO](https://github.com/ai-ecoverse/yolo)
