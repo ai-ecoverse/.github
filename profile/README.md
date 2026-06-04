@@ -38,7 +38,7 @@ Claude Code skill for pushing status updates and action items to TRMNL e-ink dis
 
 ### [slicc](https://github.com/ai-ecoverse/slicc)
 
-![slicc - Browser-Based Coding Agent](https://raw.githubusercontent.com/ai-ecoverse/slicc/main/hero-banner.png)
+![slicc - Browser-Based Coding Agent](https://raw.githubusercontent.com/ai-ecoverse/slicc/main/docs/hero-banner.png)
 
 A browser-based coding agent that runs as a Chrome extension, CLI server, or Electron float. Runs Claude directly in the browser with full filesystem access, a WebAssembly shell, browser automation via CDP, and a complete suite of code editing tools. The self-licking ice cream cone - an AI coding agent that builds itself.
 
@@ -63,6 +63,8 @@ Quickly install Claude/Agent skills from other repositories. Works standalone or
 Ranked GitHub triage as a `gh` extension. Shows what needs your attention now: PRs/issues waiting on you, work waiting on others, local repos behind, AI coding sessions to resume, categorized notifications, and cleanup candidates. "Garfield was wrong. Mondays are when everything gets sorted." Install with: `gh extension install ai-ecoverse/gh-monday`.
 
 ### [gh-reaper](https://github.com/ai-ecoverse/gh-reaper)
+
+![gh-reaper — don't fear the worktrees](https://raw.githubusercontent.com/ai-ecoverse/gh-reaper/main/hero-banner.jpg)
 
 GitHub CLI extension that hunts down stale git worktrees across your machine — showing each one's last-touched age and disk size, oldest first — and reaps the ones you've forgotten. Read-only by default (`--reap` to delete), safety-classifies worktrees as clean/dirty/unpushed/orphan, and steers clear of macOS privacy-protected folders so it never trips a permission prompt. The perfect companion for the worktrees YOLO and other agents leave behind. "Seasons don't fear the reaper." Install with: `gh extension install ai-ecoverse/gh-reaper`.
 
