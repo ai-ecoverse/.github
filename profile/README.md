@@ -56,6 +56,12 @@ GitHub CLI extension that intelligently filters and highlights errors in GitHub 
 
 Quickly install Claude/Agent skills from other repositories. Works standalone or as a GitHub CLI extension. Copies skills, creates discovery scripts, and updates AGENTS.md with clear markers for idempotent updates.
 
+### [skills](https://github.com/ai-ecoverse/skills)
+
+![ai-ecoverse/skills — a collection of installable agent skills](https://raw.githubusercontent.com/ai-ecoverse/skills/main/hero-banner.png)
+
+A curated catalog of 30+ ready-to-install agent skills for SLICC and other AI coding agents — browser automation, email & chat (Gmail, Outlook, Slack, Teams), music (Suno, Strudel, Apple Music), documents (PDF, PPTX, presentations), research, and screenwriting. Each skill is a self-contained directory (`SKILL.md` plus scripts, references, and assets). Install them with `upskill ai-ecoverse/skills --all`.
+
 ### [gh-monday](https://github.com/ai-ecoverse/gh-monday)
 
 ![gh-monday - A robot cat that loves Mondays](https://raw.githubusercontent.com/ai-ecoverse/gh-monday/main/hero-banner.jpg)
