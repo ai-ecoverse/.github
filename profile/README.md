@@ -26,6 +26,12 @@ Git wrapper that enforces safe practices for AI coding agents. Prevents dangerou
 
 Transparent GitHub CLI wrapper that automatically detects AI tool usage and ensures proper bot attribution. Uses device flow to exchange user tokens for bot tokens, so actions appear as "as-a-bot[bot] on behalf of @user" rather than appearing to come directly from the user.
 
+### [ai-aligned-xcode](https://github.com/ai-ecoverse/ai-aligned-xcode)
+
+![ai-aligned-xcode — one simulator at a time](https://raw.githubusercontent.com/ai-ecoverse/ai-aligned-xcode/main/hero-banner.jpg)
+
+Transparent Xcode toolchain shim that shadows `xcodebuild`, `xcrun`, `swift` and `xcodegen` on PATH, so there is nothing to teach the agent — no CLAUDE.md rule, no skill file, no MCP server. Leases simulators by UDID so parallel agents stop colliding on one device, isolates DerivedData per worktree, refuses long runs the caller has not budgeted for, and retries simulator infrastructure failures without retrying genuine test failures. Humans get an untouched pass-through.
+
 ### [as-a-bot](https://github.com/ai-ecoverse/as-a-bot)
 
 ![as-a-bot](https://raw.githubusercontent.com/ai-ecoverse/as-a-bot/main/hero-image.png)
@@ -106,6 +112,7 @@ Lightweight shell library for detecting AI coding agents. Provides robust two-ph
 - **Skill Sharing**: Share and install AI agent skills across projects with gh-upskill
 - **Transparency**: Track and visualize AI contributions with vibe-coded-badge-action
 - **Disk Hygiene**: Find and reap forgotten git worktrees by age and size with gh-reaper
+- **Shared Simulators**: Stop parallel agents colliding on one iOS Simulator with ai-aligned-xcode
 
 ## 🚀 Getting Started
 
@@ -122,6 +129,9 @@ curl -fsSL https://raw.githubusercontent.com/ai-ecoverse/ai-aligned-git/main/ins
 
 # ai-aligned-gh
 curl -fsSL https://raw.githubusercontent.com/ai-ecoverse/ai-aligned-gh/main/install.sh | sh
+
+# ai-aligned-xcode (macOS only)
+curl -fsSL https://raw.githubusercontent.com/ai-ecoverse/ai-aligned-xcode/main/install.sh | sh
 
 # gh-upskill
 curl -fsSL https://raw.githubusercontent.com/ai-ecoverse/gh-upskill/main/install.sh | bash
