@@ -104,6 +104,12 @@ A lightweight MCP secrets manager that uses Cloudflare Workers for compute and G
 
 Lightweight shell library for detecting AI coding agents. Provides robust two-phase detection (environment variables + process tree) to identify when code is running under AI control. Powers the AI detection in ai-aligned-git and ai-aligned-gh.
 
+### [kev.js](https://github.com/ai-ecoverse/kev.js)
+
+![kev.js — decision models in the browser](https://raw.githubusercontent.com/ai-ecoverse/kev.js/main/docs/demo.png)
+
+[Kev](https://github.com/jaredpalmer/kev) decision models running in the browser on WebGPU. Ask yes/no, multiple-choice and rating questions about a piece of text and get calibrated probabilities back — no server, nothing leaves the tab. Speaks the TypeSafe System One API, ships Kev-0.8B, 4B and 9B as int8 bundles on [Hugging Face](https://huggingface.co/ai-ecoverse/kev.js) that match the full-precision models' accuracy, and has a [live demo](https://ai-ecoverse.github.io/kev.js/). Install with `npm install @ai-ecoverse/kev.js onnxruntime-web`.
+
 ## 🎯 Use Cases
 
 - **Safe Experimentation**: Use YOLO with worktree mode to test AI-generated changes in isolation
@@ -113,6 +119,7 @@ Lightweight shell library for detecting AI coding agents. Provides robust two-ph
 - **Transparency**: Track and visualize AI contributions with vibe-coded-badge-action
 - **Disk Hygiene**: Find and reap forgotten git worktrees by age and size with gh-reaper
 - **Shared Simulators**: Stop parallel agents colliding on one iOS Simulator with ai-aligned-xcode
+- **In-Browser Decisions**: Route, classify and score text on the user's own GPU with kev.js
 
 ## 🚀 Getting Started
 
@@ -143,6 +150,9 @@ gh extension install ai-ecoverse/gh-reaper
 
 # am-i-ai (detection library, used by ai-aligned-git/gh)
 curl -fsSL https://raw.githubusercontent.com/ai-ecoverse/am-i-ai/main/install.sh | sh
+
+# kev.js (decision models in the browser)
+npm install @ai-ecoverse/kev.js onnxruntime-web
 ```
 
 ## 🌟 Philosophy
@@ -165,4 +175,4 @@ Contributions are welcome across all projects! Please visit individual repositor
 
 ## 🤗 Hugging Face
 
-We are on the Hub as [@ai-ecoverse](https://huggingface.co/ai-ecoverse) — models, datasets and Spaces as they land.
+We are on the Hub as [@ai-ecoverse](https://huggingface.co/ai-ecoverse) — models, datasets and Spaces as they land. First up: [ai-ecoverse/kev.js](https://huggingface.co/ai-ecoverse/kev.js), the browser-ready Kev weights behind [kev.js](https://github.com/ai-ecoverse/kev.js).
