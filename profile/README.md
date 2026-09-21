@@ -162,3 +162,7 @@ All projects are open source under Apache 2.0 or MIT licenses. See individual re
 ## 🤝 Contributing
 
 Contributions are welcome across all projects! Please visit individual repositories to submit issues or pull requests.
+
+## 🤗 Hugging Face
+
+We are on the Hub as [@ai-ecoverse](https://huggingface.co/ai-ecoverse) — models, datasets and Spaces as they land.
