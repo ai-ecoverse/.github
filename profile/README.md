@@ -108,13 +108,21 @@ Lightweight shell library for detecting AI coding agents. Provides robust two-ph
 
 ![kev.js — decision models in the browser](https://raw.githubusercontent.com/ai-ecoverse/kev.js/main/docs/demo.png)
 
-[Kev](https://github.com/jaredpalmer/kev) decision models running in the browser on WebGPU. Ask yes/no, multiple-choice and rating questions about a piece of text and get calibrated probabilities back — no server, nothing leaves the tab. Speaks the TypeSafe System One API, ships Kev-0.8B, 4B and 9B as int8 bundles on [Hugging Face](https://huggingface.co/ai-ecoverse/kev.js) that match the full-precision models' accuracy, and has a [live demo](https://ai-ecoverse.github.io/kev.js/). Install with `npm install @ai-ecoverse/kev.js onnxruntime-web`.
+[Kev](https://github.com/jaredpalmer/kev) decision models running in the browser on WebGPU. Ask yes/no, multiple-choice and rating questions about a piece of text and get calibrated probabilities back — no server, nothing leaves the tab. Speaks the TypeSafe System One API, ships Kev-0.8B, 4B and 9B as int8 bundles on [Hugging Face](https://huggingface.co/ai-ecoverse/kev.js) that match the full-precision models' accuracy, and has a [live demo](https://ai-ecoverse.github.io/kev.js/). The `-vision` bundles also take an image, read by Qwen3.5's own vision tower; in [decision-vision-bench](https://github.com/ai-ecoverse/decision-vision-bench) Kev-4B vision is the best browser model for image decisions. Install with `npm install @ai-ecoverse/kev.js onnxruntime-web`.
 
 ### [cua-s1.js](https://github.com/ai-ecoverse/cua-s1.js)
 
 ![cua-s1.js — form filling decisions in the browser](https://raw.githubusercontent.com/ai-ecoverse/cua-s1.js/main/docs/demo.png)
 
-[Cua's cua-s1](https://github.com/trycua/cua/tree/main/libs/cua-s1) form-filling decision model in the browser. It reads each field of an HTML form and a document's `Label: value` pairs and decides whether to fill the field with one of those values, tick it, click it, or leave it alone. A 3 MB ONNX graph plans a whole form in about 150 ms on the CPU, matching Cua's PyTorch model to 3.2e-6. Nothing is typed until you apply the plan. Weights on [Hugging Face](https://huggingface.co/ai-ecoverse/cua-s1.js), [live demo](https://ai-ecoverse.github.io/cua-s1.js/) (including PDF input). Install with `npm install @ai-ecoverse/cua-s1.js onnxruntime-web`.
+[Cua's cua-s1](https://github.com/trycua/cua/tree/main/libs/cua-s1) form-filling decision model in the browser. It reads each field of an HTML form and a document's `Label: value` pairs and decides whether to fill the field with one of those values, tick it, click it, or leave it alone. A 3 MB ONNX graph plans a whole form in about 150 ms on the CPU, matching Cua's PyTorch model to 3.2e-6. Nothing is typed until you apply the plan. Weights on [Hugging Face](https://huggingface.co/ai-ecoverse/cua-s1.js), [live demo](https://ai-ecoverse.github.io/cua-s1.js/) (including PDF input). Also runs Cua's cua-s1-4b-0.2 on WebGPU, which picks the next action on a screen from its accessibility tree or a screenshot ([demo](https://ai-ecoverse.github.io/cua-s1.js/4b.html)). Install with `npm install @ai-ecoverse/cua-s1.js onnxruntime-web`.
+
+### [jev-omni.js](https://github.com/ai-ecoverse/jev-omni.js)
+
+[Jev-Omni](https://huggingface.co/akhilaaa3/Jev-Omni), a Gemma 4 12B decision classifier, in the browser on WebGPU. Give it a state, a question and up to 256 options, optionally with an image, and get one probability per option from a single forward pass. The 13.6 GB int8 bundle gives the same answers as the full-precision model on all 293 DecisionBench questions (86%). It is the strongest of these models on long text decisions. Work in progress: video and audio are still to come.
+
+### [decision-vision-bench](https://github.com/ai-ecoverse/decision-vision-bench)
+
+Kev.js, cua-s1.js and jev-omni.js side by side on one mixed set of 411 image and text decision questions, each model in its own request format, in Chrome on WebGPU. Reports accuracy with confidence intervals, calibration, latency, download size and memory, plus a plain recommendation of which model suits which job.
 
 ## 🎯 Use Cases
 
@@ -127,6 +135,7 @@ Lightweight shell library for detecting AI coding agents. Provides robust two-ph
 - **Shared Simulators**: Stop parallel agents colliding on one iOS Simulator with ai-aligned-xcode
 - **In-Browser Decisions**: Route, classify and score text on the user's own GPU with kev.js
 - **Form Filling**: Plan which document values go into which form fields, in the browser, with cua-s1.js
+- **Image Decisions**: Answer yes/no, choice and rating questions about screenshots and photos in the browser with kev.js vision, compared in decision-vision-bench
 
 ## 🚀 Getting Started
 
