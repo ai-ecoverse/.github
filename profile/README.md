@@ -32,6 +32,10 @@ Transparent GitHub CLI wrapper that automatically detects AI tool usage and ensu
 
 Transparent Xcode toolchain shim that shadows `xcodebuild`, `xcrun`, `swift` and `xcodegen` on PATH, so there is nothing to teach the agent — no CLAUDE.md rule, no skill file, no MCP server. Leases simulators by UDID so parallel agents stop colliding on one device, isolates DerivedData per worktree, refuses long runs the caller has not budgeted for, and retries simulator infrastructure failures without retrying genuine test failures. Humans get an untouched pass-through.
 
+### [ai-aligned-zsh](https://github.com/ai-ecoverse/ai-aligned-zsh)
+
+Coding agents write bash; when the login shell is zsh they run it through `zsh -c`, and 60% of one user's Claude Code sessions hit a zsh-only error (`no matches found: --include=*.ts`, `==== not found`, unsplit `$FILES`). One block at the top of `~/.zshenv` gives agents' non-interactive `zsh -c` bash-compatible options, chosen from those transcripts, once their command starts — after your startup files, which keep their zsh semantics, as do your functions. Detection uses am-i-ai. Interactive shells, zsh scripts and humans are untouched.
+
 ### [as-a-bot](https://github.com/ai-ecoverse/as-a-bot)
 
 ![as-a-bot](https://raw.githubusercontent.com/ai-ecoverse/as-a-bot/main/hero-image.png)
@@ -133,6 +137,7 @@ Kev.js, cua-s1.js and jev-omni.js side by side on one mixed set of 411 image and
 - **Transparency**: Track and visualize AI contributions with vibe-coded-badge-action
 - **Disk Hygiene**: Find and reap forgotten git worktrees by age and size with gh-reaper
 - **Shared Simulators**: Stop parallel agents colliding on one iOS Simulator with ai-aligned-xcode
+- **zsh Users**: Let agents' bash run in your zsh without `no matches found` and unsplit variables, with ai-aligned-zsh
 - **In-Browser Decisions**: Route, classify and score text on the user's own GPU with kev.js
 - **Form Filling**: Plan which document values go into which form fields, in the browser, with cua-s1.js
 - **Image Decisions**: Answer yes/no, choice and rating questions about screenshots and photos in the browser with kev.js vision, compared in decision-vision-bench
@@ -155,6 +160,9 @@ curl -fsSL https://raw.githubusercontent.com/ai-ecoverse/ai-aligned-gh/main/inst
 
 # ai-aligned-xcode (macOS only)
 curl -fsSL https://raw.githubusercontent.com/ai-ecoverse/ai-aligned-xcode/main/install.sh | sh
+
+# ai-aligned-zsh (if your login shell is zsh)
+curl -fsSL https://raw.githubusercontent.com/ai-ecoverse/ai-aligned-zsh/main/install.sh | sh
 
 # gh-upskill
 curl -fsSL https://raw.githubusercontent.com/ai-ecoverse/gh-upskill/main/install.sh | bash
